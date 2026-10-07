@@ -1,0 +1,18 @@
+/* final first-screen density pass */
+.ref-hero-v2{height:142px;padding:13px 34px 10px}
+.ref-hero-v2 .ref-work-badge{margin-top:4px;padding:12px 21px}
+.ref-hero-scene{height:142px}
+.ref-hero-v2::before,.ref-hero-v2::after{display:none}
+.ref-hero-v2 .ref-hero-scene{position:absolute;inset:0 0 0 auto;width:72%;height:100%;opacity:1;background-image:linear-gradient(90deg,#fff 0%,rgba(255,255,255,.96) 9%,rgba(255,255,255,.62) 25%,rgba(255,255,255,.06) 48%,transparent 62%),url('./assets/hero-industrial-city.webp');background-size:100% 100%,cover;background-position:center,center 64%;background-repeat:no-repeat;pointer-events:none}
+.ref-hero-v2{background:#fff}
+.ref-tabs{height:46px}
+.ref-map-grid-v2>.ref-card,.ref-right-stack{min-height:520px}
+.ref-map-grid-v2 .ref-card-head{min-height:55px;padding:13px 16px 10px}
+.ref-province-row-v2{min-height:55px;padding:6px 9px}
+.ref-row-icon{width:32px;height:32px;flex-basis:32px}.ref-row-icon .ref-icon{width:20px;height:20px}
+.ref-row-icon .ref-icon svg{stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ref-row-track{height:10px}.ref-derived-note{padding-top:8px}
+.ref-right-stack{grid-template-rows:minmax(0,1fr) 164px;gap:12px}
+.ref-device-card .ref-card-body{padding:8px 13px}.ref-province-row-v2.device-row{min-height:54px}
+.ref-map-body-v2{min-height:465px}.ref-map-body-v2 .ref-map-holder,.ref-map-body-v2 .ref-map-svg{height:465px}
+@media(max-width:780px){.ref-hero-v2{height:151px;padding:16px 18px}.ref-hero-scene{height:151px}.ref-map-body-v2,.ref-map-body-v2 .ref-map-holder,.ref-map-body-v2 .ref-map-svg{min-height:390px;height:390px}}

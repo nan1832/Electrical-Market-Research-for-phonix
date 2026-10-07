@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.chrome-shot/
+.chrome-shot-*/
+preview*.png
+assets/*.png
